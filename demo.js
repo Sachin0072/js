@@ -89,13 +89,26 @@
 // }while(i<=10);
 
 
-let arr = [3,2,4,[1,2,2,[0,8,2,6],5,8,4],6,7,8]
-console.log(arr[3][3][1]);
+// let arr = [3,2,4,[1,2,2,[0,8,2,6],5,8,4],6,7,8]
+// console.log(arr[3][3][1]);
 
-const sum = (a,b)=>
-{
-       console.log(a+b);
+// const sum = (a,b)=>
+// {
+//        console.log(a+b);
        
+// }
+
+// sum(15587952, 645588485);
+
+
+// object
+
+let user =
+{
+       name:"Sachin Pathania",
+       profession:"Full stack developer",
+       age:26,
+       phone:9317115891
 }
 
-sum(15587952, 645588485);
+console.log(user.name);
